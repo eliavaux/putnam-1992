@@ -1,5 +1,3 @@
-Putting the 1992 Putnam Test question A-6 into code.
-
 ## Problem
 
 If you chose 4 points on a sphere and consider the tetrahedron with these points as it's vertices,
@@ -21,3 +19,9 @@ For the random distribution, I took a starting point P(0 | 0 | 1), then rotated 
 
 To test whether a point is inside or outside of the tetrahedron, I converted it's vertices into a barycentric coordinate system.
 For more information, check out [this](https://en.wikipedia.org/wiki/Barycentric_coordinate_system) Wikipedia article.
+
+## Examples
+You can find more examples in /examples or generate your own by running the main.rs file.
+
+![alt text](https://github.com/eliavaux/putnam-1992/blob/main/examples/example-1.gif)
+![alt text](https://github.com/eliavaux/putnam-1992/blob/main/examples/example-2.gif)
