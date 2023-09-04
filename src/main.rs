@@ -109,6 +109,7 @@ fn main() {
         (tetra.2.x, tetra.2.y, tetra.2.z),
         (tetra.3.x, tetra.3.y, tetra.3.z),
     ];
+
     let tetra_surfaces = [
         [tetra_array[0], tetra_array[1], tetra_array[2]],
         [tetra_array[0], tetra_array[1], tetra_array[3]],
