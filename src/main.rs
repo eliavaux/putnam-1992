@@ -94,7 +94,6 @@ fn main() {
 
 
     println!("Focussing on one of the tetrahedrons:");
-
     let tetra = tetrahedron_on_sphere();
     if includes_origin(&tetra) {
         println!("The origin is inside of the tetrahedron. \n");
